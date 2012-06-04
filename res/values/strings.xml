@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, PaeActivity!</string>
+    <string name="app_name">无线控制平台</string>
+    <string name="button_scan">扫描设备</string>
+    <string name="scanning">正在扫描，请稍候...</string>
+    <string name="none_found">对不起，没有找到可用的蓝牙设备.</string>
+    <string name="select_device">请选择一个设备进行连接</string>
+    <string name="button_bt">蓝牙连接</string>
+    <string name="button_wifi">WIFI连接</string>
+    <string name="no_bluetooth">对不起，没有找到可用的蓝牙设备</string>
+    <string name="exit">退出</string>
+    <string name="about">关于我们</string>
+    <string name="bluetooth_connection_fail">对不起，没有找到默认的蓝牙服务器，蓝牙连接失败</string>
+    <string name="developing">功能正在开发中</string>
+    <string name="connection_choice_title">请选择连接方式</string>
+    <string name="title_paired_devices">已匹配设备</string>
+    <string name="title_other_devices">新发现的设备</string>
+    <string name="no_paired_device">没有已匹配的设备</string>
+    <string name="no_new_device">没有找到新的设备</string>
+    <string name="loading">正在加载中，请稍后...</string>
+    <string name="title_new_device">新发现的设备</string>
+    <string name="about_content">这是一个关于无线控制的应用</string>
+
+</resources>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gh_bg"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <!-- 左边的方向盘 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/l2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btdown_effect"
+                android:src="@drawable/l2" />
+
+            <ImageButton
+                android:id="@+id/l1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btdown_effect"
+                android:src="@drawable/l1" />
+        </LinearLayout>
+
+        <AbsoluteLayout
+            android:id="@+id/dirlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dir_bg"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="65dp"
+                android:layout_y="111dp"
+                android:background="@drawable/btdown_effect"
+                android:src="@drawable/down" />
+
+            <ImageButton
+                android:id="@+id/up"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="110dp"
+                android:layout_y="70dp"
+                android:background="@drawable/btdown_effect"
+                android:src="@drawable/right" />
+
+            <ImageButton
+                android:id="@+id/left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="70dp"
+                android:layout_y="9dp"
+                android:background="@drawable/btdown_effect"
+                android:src="@drawable/up" />
+
+            <ImageButton
+                android:id="@+id/down"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="14dp"
+                android:layout_y="70dp"
+                android:background="@drawable/btdown_effect"
+                android:src="@drawable/left" />
+        </AbsoluteLayout>
+    </LinearLayout>
+
+    <!-- end的方向盘 -->
+
+    <AbsoluteLayout
+        android:id="@+id/homelayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal" >
+
+        <ImageButton
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="68dp"
+            android:background="#00000000"
+            android:src="@drawable/start" />
+
+        <ImageButton
+            android:id="@+id/select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="0dp"
+            android:background="#00000000"
+            android:src="@drawable/select" />
+
+        <ImageButton
+            android:id="@+id/home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="95dp"
+            android:layout_y="37dp"
+            android:background="#00000000"
+            android:src="@drawable/home" />
+    </AbsoluteLayout>
+
+    <!-- 右边的功能键 -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:id="@+id/r1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btdown_effect"
+                android:src="@drawable/r1" />
+
+            <ImageButton
+                android:id="@+id/r2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btdown_effect"
+                android:src="@drawable/r2" />
+        </LinearLayout>
+
+        <AbsoluteLayout
+            android:id="@+id/funlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/fun_right_bg"
+            android:orientation="horizontal" >
+
+            <ImageButton
+                android:id="@+id/x"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="-1dp"
+                android:layout_y="73dp"
+                android:background="#00000000"
+                android:src="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/circle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="66dp"
+                android:layout_y="138dp"
+                android:background="#00000000"
+                android:src="@drawable/circle" />
+
+            <ImageButton
+                android:id="@+id/triangle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="132dp"
+                android:layout_y="73dp"
+                android:background="#00000000"
+                android:src="@drawable/triangle" />
+
+            <ImageButton
+                android:id="@+id/square"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_x="66dp"
+                android:layout_y="2dp"
+                android:background="#00000000"
+                android:src="@drawable/square" />
+        </AbsoluteLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/gamehandletips"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:text="tipshere" />
+
+</RelativeLayout>
